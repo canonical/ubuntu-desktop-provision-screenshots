@@ -1,6 +1,6 @@
 ### [Ubuntu Desktop Installer](https://github.com/canonical/ubuntu-desktop-installer)
 
-<p><a href="https://github.com/canonical/ubuntu-desktop-installer-screenshots/actions/workflows/ci.yml"><sub>Run workflow</sub></a></p>
+<p><sub><b>NOTE:</b> The screenshots are automatically updated every ~6 hours. Run the <a href="https://github.com/canonical/ubuntu-desktop-installer-screenshots/actions/workflows/ci.yml">CI workflow</a> to update now.</sub></p>
 
 <table>
   <thead>
