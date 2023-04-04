@@ -1,6 +1,6 @@
 ### [Ubuntu Desktop Installer](https://github.com/canonical/ubuntu-desktop-installer)
 
-<p><a href="https://github.com/jpnurmi/ubuntu-desktop-installer-screenshots/actions/workflows/ci.yml"><sub>Run workflow</sub></a></p>
+<p><a href="https://github.com/canonical/ubuntu-desktop-installer-screenshots/actions/workflows/ci.yml"><sub>Run workflow</sub></a></p>
 
 <table>
   <thead>
