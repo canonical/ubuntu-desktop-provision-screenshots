@@ -1,4 +1,4 @@
-### [Ubuntu Desktop Installer](https://github.com/canonical/ubuntu-desktop-installer) screenshots
+### Ubuntu Desktop Installer screenshots
 
 <p><sub><b>NOTE:</b> The screenshots are automatically updated every ~6 hours. Run the <a href="https://github.com/canonical/ubuntu-desktop-installer-screenshots/actions/workflows/ci.yml">CI workflow</a> to update now.</sub></p>
 
