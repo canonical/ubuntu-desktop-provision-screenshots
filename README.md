@@ -67,16 +67,16 @@
       <td><img src="high-contrast-dark/6.erase-disk.png"></td>
     </tr>
     <tr>
-      <td><img src="light/6.alongside-windows.png"></td>
-      <td><img src="high-contrast-light/6.alongside-windows.png"></td>
-      <td><img src="dark/6.alongside-windows.png"></td>
-      <td><img src="high-contrast-dark/6.alongside-windows.png"></td>
-    </tr>
-    <tr>
       <td><img src="light/6.advanced-features.png"></td>
       <td><img src="high-contrast-light/6.advanced-features.png"></td>
       <td><img src="dark/6.advanced-features.png"></td>
       <td><img src="high-contrast-dark/6.advanced-features.png"></td>
+    </tr>
+    <tr>
+      <td><img src="light/6.alongside-windows.png"></td>
+      <td><img src="high-contrast-light/6.alongside-windows.png"></td>
+      <td><img src="dark/6.alongside-windows.png"></td>
+      <td><img src="high-contrast-dark/6.alongside-windows.png"></td>
     </tr>
     <tr>
       <td><img src="light/7.bitlocker.png"></td>
