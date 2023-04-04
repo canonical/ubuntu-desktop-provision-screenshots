@@ -103,6 +103,12 @@
       <td><img src="high-contrast-dark/7.resize-windows.png"></td>
     </tr>
     <tr>
+      <td><img src="light/7.resize-windows-sda3.png"></td>
+      <td><img src="high-contrast-light/7.resize-windows-sda3.png"></td>
+      <td><img src="dark/7.resize-windows-sda3.png"></td>
+      <td><img src="high-contrast-dark/7.resize-windows-sda3.png"></td>
+    </tr>
+    <tr>
       <td><img src="light/8.security-key.png"></td>
       <td><img src="high-contrast-light/8.security-key.png"></td>
       <td><img src="dark/8.security-key.png"></td>
