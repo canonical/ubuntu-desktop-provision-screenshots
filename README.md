@@ -19,10 +19,16 @@
       <td><img src="high-contrast-dark/1.locale.png"></td>
     </tr>
     <tr>
-      <td><img src="light/2.try-or-install.png"></td>
-      <td><img src="high-contrast-light/2.try-or-install.png"></td>
-      <td><img src="dark/2.try-or-install.png"></td>
-      <td><img src="high-contrast-dark/2.try-or-install.png"></td>
+      <td><img src="light/2.try-ubuntu.png"></td>
+      <td><img src="high-contrast-light/2.try-ubuntu.png"></td>
+      <td><img src="dark/2.try-ubuntu.png"></td>
+      <td><img src="high-contrast-dark/2.try-ubuntu.png"></td>
+    </tr>
+    <tr>
+      <td><img src="light/2.install-ubuntu.png"></td>
+      <td><img src="high-contrast-light/2.install-ubuntu.png"></td>
+      <td><img src="dark/2.install-ubuntu.png"></td>
+      <td><img src="high-contrast-dark/2.install-ubuntu.png"></td>
     </tr>
     <tr>
       <td><img src="light/3.keyboard.png"></td>
@@ -49,34 +55,28 @@
       <td><img src="high-contrast-dark/5.updates.png"></td>
     </tr>
     <tr>
-      <td><img src="light/6.installation-type.png"></td>
-      <td><img src="high-contrast-light/6.installation-type.png"></td>
-      <td><img src="dark/6.installation-type.png"></td>
-      <td><img src="high-contrast-dark/6.installation-type.png"></td>
+      <td><img src="light/6.not-enough-space.png"></td>
+      <td><img src="high-contrast-light/6.not-enough-space.png"></td>
+      <td><img src="dark/6.not-enough-space.png"></td>
+      <td><img src="high-contrast-dark/6.not-enough-space.png"></td>
     </tr>
     <tr>
-      <td><img src="light/6.not-enough-disk-space.png"></td>
-      <td><img src="high-contrast-light/6.not-enough-disk-space.png"></td>
-      <td><img src="dark/6.not-enough-disk-space.png"></td>
-      <td><img src="high-contrast-dark/6.not-enough-disk-space.png"></td>
+      <td><img src="light/6.erase-disk.png"></td>
+      <td><img src="high-contrast-light/6.erase-disk.png"></td>
+      <td><img src="dark/6.erase-disk.png"></td>
+      <td><img src="high-contrast-dark/6.erase-disk.png"></td>
     </tr>
     <tr>
-      <td><img src="light/7.manual-partitioning.png"></td>
-      <td><img src="high-contrast-light/7.manual-partitioning.png"></td>
-      <td><img src="dark/7.manual-partitioning.png"></td>
-      <td><img src="high-contrast-dark/7.manual-partitioning.png"></td>
+      <td><img src="light/6.alongside-windows.png"></td>
+      <td><img src="high-contrast-light/6.alongside-windows.png"></td>
+      <td><img src="dark/6.alongside-windows.png"></td>
+      <td><img src="high-contrast-dark/6.alongside-windows.png"></td>
     </tr>
     <tr>
-      <td><img src="light/7.install-alongside.png"></td>
-      <td><img src="high-contrast-light/7.install-alongside.png"></td>
-      <td><img src="dark/7.install-alongside.png"></td>
-      <td><img src="high-contrast-dark/7.install-alongside.png"></td>
-    </tr>
-    <tr>
-      <td><img src="light/7.select-disk.png"></td>
-      <td><img src="high-contrast-light/7.select-disk.png"></td>
-      <td><img src="dark/7.select-disk.png"></td>
-      <td><img src="high-contrast-dark/7.select-disk.png"></td>
+      <td><img src="light/6.advanced-features.png"></td>
+      <td><img src="high-contrast-light/6.advanced-features.png"></td>
+      <td><img src="dark/6.advanced-features.png"></td>
+      <td><img src="high-contrast-dark/6.advanced-features.png"></td>
     </tr>
     <tr>
       <td><img src="light/7.bitlocker.png"></td>
@@ -85,16 +85,34 @@
       <td><img src="high-contrast-dark/7.bitlocker.png"></td>
     </tr>
     <tr>
+      <td><img src="light/7.manual-partitioning.png"></td>
+      <td><img src="high-contrast-light/7.manual-partitioning.png"></td>
+      <td><img src="dark/7.manual-partitioning.png"></td>
+      <td><img src="high-contrast-dark/7.manual-partitioning.png"></td>
+    </tr>
+    <tr>
+      <td><img src="light/7.select-disk.png"></td>
+      <td><img src="high-contrast-light/7.select-disk.png"></td>
+      <td><img src="dark/7.select-disk.png"></td>
+      <td><img src="high-contrast-dark/7.select-disk.png"></td>
+    </tr>
+    <tr>
+      <td><img src="light/7.resize-windows.png"></td>
+      <td><img src="high-contrast-light/7.resize-windows.png"></td>
+      <td><img src="dark/7.resize-windows.png"></td>
+      <td><img src="high-contrast-dark/7.resize-windows.png"></td>
+    </tr>
+    <tr>
       <td><img src="light/8.security-key.png"></td>
       <td><img src="high-contrast-light/8.security-key.png"></td>
       <td><img src="dark/8.security-key.png"></td>
       <td><img src="high-contrast-dark/8.security-key.png"></td>
     </tr>
     <tr>
-      <td><img src="light/9.confirm.png"></td>
-      <td><img src="high-contrast-light/9.confirm.png"></td>
-      <td><img src="dark/9.confirm.png"></td>
-      <td><img src="high-contrast-dark/9.confirm.png"></td>
+      <td><img src="light/9.ready-to-install.png"></td>
+      <td><img src="high-contrast-light/9.ready-to-install.png"></td>
+      <td><img src="dark/9.ready-to-install.png"></td>
+      <td><img src="high-contrast-dark/9.ready-to-install.png"></td>
     </tr>
     <tr>
       <td><img src="light/10.timezone.png"></td>
@@ -175,10 +193,10 @@
       <td><img src="high-contrast-dark/14.installation-slide-8.png"></td>
     </tr>
     <tr>
-      <td><img src="light/15.complete.png"></td>
-      <td><img src="high-contrast-light/15.complete.png"></td>
-      <td><img src="dark/15.complete.png"></td>
-      <td><img src="high-contrast-dark/15.complete.png"></td>
+      <td><img src="light/15.installation-complete.png"></td>
+      <td><img src="high-contrast-light/15.installation-complete.png"></td>
+      <td><img src="dark/15.installation-complete.png"></td>
+      <td><img src="high-contrast-dark/15.installation-complete.png"></td>
     </tr>
   </tbody>
 </table>
