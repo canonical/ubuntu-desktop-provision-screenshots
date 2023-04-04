@@ -85,6 +85,12 @@
       <td><img src="high-contrast-dark/7.manual-partitioning.png"></td>
     </tr>
     <tr>
+      <td><img src="light/7.manual-partitioning-sda1.png"></td>
+      <td><img src="high-contrast-light/7.manual-partitioning-sda1.png"></td>
+      <td><img src="dark/7.manual-partitioning-sda1.png"></td>
+      <td><img src="high-contrast-dark/7.manual-partitioning-sda1.png"></td>
+    </tr>
+    <tr>
       <td><img src="light/7.select-disk.png"></td>
       <td><img src="high-contrast-light/7.select-disk.png"></td>
       <td><img src="dark/7.select-disk.png"></td>
