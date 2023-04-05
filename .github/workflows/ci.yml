@@ -21,8 +21,7 @@ jobs:
         with:
           submodules: recursive
           path: ubuntu-desktop-installer
-          repository: jpnurmi/ubuntu-desktop-installer
-          ref: screenshots
+          repository: canonical/ubuntu-desktop-installer
 
       - name: Install dependencies
         run: |
