@@ -31,10 +31,22 @@
       <td><img src="high-contrast-dark/3.keyboard.png"></td>
     </tr>
     <tr>
+      <td><img src="light/3.keyboard-detect.png"></td>
+      <td><img src="high-contrast-light/3.keyboard-detect.png"></td>
+      <td><img src="dark/3.keyboard-detect.png"></td>
+      <td><img src="high-contrast-dark/3.keyboard-detect.png"></td>
+    </tr>
+    <tr>
       <td><img src="light/3.rst.png"></td>
       <td><img src="high-contrast-light/3.rst.png"></td>
       <td><img src="dark/3.rst.png"></td>
       <td><img src="high-contrast-dark/3.rst.png"></td>
+    </tr>
+    <tr>
+      <td><img src="light/3.rst-confirm.png"></td>
+      <td><img src="high-contrast-light/3.rst-confirm.png"></td>
+      <td><img src="dark/3.rst-confirm.png"></td>
+      <td><img src="high-contrast-dark/3.rst-confirm.png"></td>
     </tr>
     <tr>
       <td><img src="light/4.network.png"></td>
@@ -79,6 +91,12 @@
       <td><img src="high-contrast-dark/7.bitlocker.png"></td>
     </tr>
     <tr>
+      <td><img src="light/7.bitlocker-confirm.png"></td>
+      <td><img src="high-contrast-light/7.bitlocker-confirm.png"></td>
+      <td><img src="dark/7.bitlocker-confirm.png"></td>
+      <td><img src="high-contrast-dark/7.bitlocker-confirm.png"></td>
+    </tr>
+    <tr>
       <td><img src="light/7.manual-partitioning.png"></td>
       <td><img src="high-contrast-light/7.manual-partitioning.png"></td>
       <td><img src="dark/7.manual-partitioning.png"></td>
@@ -103,10 +121,10 @@
       <td><img src="high-contrast-dark/7.resize-windows.png"></td>
     </tr>
     <tr>
-      <td><img src="light/7.resize-windows-sda3.png"></td>
-      <td><img src="high-contrast-light/7.resize-windows-sda3.png"></td>
-      <td><img src="dark/7.resize-windows-sda3.png"></td>
-      <td><img src="high-contrast-dark/7.resize-windows-sda3.png"></td>
+      <td><img src="light/7.resize-windows-ext4.png"></td>
+      <td><img src="high-contrast-light/7.resize-windows-ext4.png"></td>
+      <td><img src="dark/7.resize-windows-ext4.png"></td>
+      <td><img src="high-contrast-dark/7.resize-windows-ext4.png"></td>
     </tr>
     <tr>
       <td><img src="light/8.security-key.png"></td>
