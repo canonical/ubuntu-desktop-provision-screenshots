@@ -57,7 +57,7 @@ jobs:
         run: |
           rsync -avu --delete ubuntu-desktop-installer/packages/ubuntu_desktop_installer/integration_test/screenshots/${{matrix.theme}} .
 
-      - uses: peter-evans/create-pull-request@v4
+      - uses: peter-evans/create-pull-request@v5
         id: create-pull-request
         with:
           title: 'Update ${{matrix.theme}} screenshots on `${{github.ref_name}}`'
