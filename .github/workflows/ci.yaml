@@ -1,28 +1,30 @@
 name: CI
 
 on:
-  schedule:
-    - cron:  '0 */6 * * *'
-  workflow_dispatch:
+  workflow_call:
+    inputs:
+      branch:
+        description: branch to run the workflow on
+        required: true
+        type: string
 
 jobs:
   screenshots:
     runs-on: ubuntu-22.04
     strategy:
       matrix:
-        branch: [main, ubuntu/lunar]
         theme: [light, dark, high-contrast-light, high-contrast-dark]
       fail-fast: false
 
     steps:
       - uses: actions/checkout@v3
         with:
-          ref: ${{matrix.branch}}
+          ref: ${{inputs.branch}}
 
       - name: Clone ubuntu-desktop-installer
         uses: actions/checkout@v3
         with:
-          ref: ${{matrix.branch}}
+          ref: ${{inputs.branch}}
           submodules: recursive
           path: ubuntu-desktop-installer
           repository: canonical/ubuntu-desktop-installer
@@ -64,11 +66,11 @@ jobs:
       - uses: peter-evans/create-pull-request@v5
         id: pr
         with:
-          title: 'Update ${{matrix.theme}} screenshots on `${{matrix.branch}}`'
-          commit-message: 'Update ${{matrix.theme}} screenshots on `${{matrix.branch}}`'
+          title: 'Update ${{matrix.theme}} screenshots on `${{inputs.branch}}`'
+          commit-message: 'Update ${{matrix.theme}} screenshots on `${{inputs.branch}}`'
           author: GitHub <noreply@github.com>
           add-paths: ${{matrix.theme}}
-          branch: pr/${{matrix.branch}}/${{matrix.theme}}
+          branch: pr/${{inputs.branch}}/${{matrix.theme}}
           delete-branch: true
 
       - run: gh pr merge --squash ${{steps.pr.outputs.pull-request-number}}
