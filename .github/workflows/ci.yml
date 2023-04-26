@@ -68,7 +68,7 @@ jobs:
           commit-message: 'Update ${{matrix.theme}} screenshots on `${{matrix.branch}}`'
           author: GitHub <noreply@github.com>
           add-paths: ${{matrix.theme}}
-          branch: ${{matrix.branch}}-${{matrix.theme}}
+          branch: pr/${{matrix.branch}}/${{matrix.theme}}
           delete-branch: true
 
       - run: gh pr merge --squash ${{steps.cpr.outputs.pull-request-number}}
