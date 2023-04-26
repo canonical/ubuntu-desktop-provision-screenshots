@@ -62,7 +62,7 @@ jobs:
           rsync -avu --delete ubuntu-desktop-installer/packages/ubuntu_desktop_installer/integration_test/screenshots/${{matrix.theme}} .
 
       - uses: peter-evans/create-pull-request@v5
-        id: create-pull-request
+        id: pr
         with:
           title: 'Update ${{matrix.theme}} screenshots on `${{matrix.branch}}`'
           commit-message: 'Update ${{matrix.theme}} screenshots on `${{matrix.branch}}`'
@@ -71,8 +71,8 @@ jobs:
           branch: pr/${{matrix.branch}}/${{matrix.theme}}
           delete-branch: true
 
-      - run: gh pr merge --squash ${{steps.cpr.outputs.pull-request-number}}
-        if: (steps.create-pull-request.outputs.pull-request-operation == 'created') || (steps.create-pull-request.outputs.pull-request-operation == 'updated')
+      - run: gh pr merge --squash ${{steps.pr.outputs.pull-request-number}}
+        if: (steps.pr.outputs.pull-request-operation == 'created') || (steps.pr.outputs.pull-request-operation == 'updated')
         env:
           PR_URL: ${{github.event.pull_request.html_url}}
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
