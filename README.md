@@ -1,8 +1,7 @@
 # Ubuntu Desktop Installer screenshots
 
-[![CI](https://github.com/canonical/ubuntu-desktop-installer-screenshots/actions/workflows/ci.yml/badge.svg)](https://github.com/canonical/ubuntu-desktop-installer-screenshots/actions/workflows/ci.yml)
-
-<p><sub><b>NOTE:</b> The screenshots are automatically updated every 6 hours. Run the <a href="https://github.com/canonical/ubuntu-desktop-installer-screenshots/actions/workflows/ci.yml">CI workflow</a> to update now.</sub></p>
+[![main](https://github.com/canonical/ubuntu-desktop-installer-screenshots/actions/workflows/main.yaml/badge.svg)](https://github.com/canonical/ubuntu-desktop-installer-screenshots/actions/workflows/main.yaml)
+[![lunar](https://github.com/canonical/ubuntu-desktop-installer-screenshots/actions/workflows/lunar.yaml/badge.svg?branch=main)](https://github.com/canonical/ubuntu-desktop-installer-screenshots/actions/workflows/lunar.yaml)
 
 <table>
   <thead>
