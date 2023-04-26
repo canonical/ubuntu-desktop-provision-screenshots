@@ -10,15 +10,19 @@ jobs:
     runs-on: ubuntu-22.04
     strategy:
       matrix:
+        branch: [main, ubuntu/lunar]
         theme: [light, dark, high-contrast-light, high-contrast-dark]
       fail-fast: false
 
     steps:
       - uses: actions/checkout@v3
+        with:
+          ref: ${{matrix.branch}}
 
       - name: Clone ubuntu-desktop-installer
         uses: actions/checkout@v3
         with:
+          ref: ${{matrix.branch}}
           submodules: recursive
           path: ubuntu-desktop-installer
           repository: canonical/ubuntu-desktop-installer
@@ -60,11 +64,11 @@ jobs:
       - uses: peter-evans/create-pull-request@v5
         id: create-pull-request
         with:
-          title: 'Update ${{matrix.theme}} screenshots on `${{github.ref_name}}`'
-          commit-message: 'Update ${{matrix.theme}} screenshots on `${{github.ref_name}}`'
+          title: 'Update ${{matrix.theme}} screenshots on `${{matrix.branch}}`'
+          commit-message: 'Update ${{matrix.theme}} screenshots on `${{matrix.branch}}`'
           author: GitHub <noreply@github.com>
           add-paths: ${{matrix.theme}}
-          branch: ${{matrix.theme}}
+          branch: ${{matrix.branch}}-${{matrix.theme}}
           delete-branch: true
 
       - run: gh pr merge --squash ${{steps.cpr.outputs.pull-request-number}}
