@@ -1,0 +1,10 @@
+name: lunar
+
+on:
+  workflow_dispatch:
+
+jobs:
+  screenshots:
+    uses: canonical/ubuntu-desktop-installer-screenshots/.github/workflows/ci.yaml@ubuntu/lunar
+    with:
+      branch: ubuntu/lunar
