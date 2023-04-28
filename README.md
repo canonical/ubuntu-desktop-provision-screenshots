@@ -20,10 +20,10 @@
       <td><img src="high-contrast-dark/1.locale.png"></td>
     </tr>
     <tr>
-      <td><img src="light/2.install-ubuntu.png"></td>
-      <td><img src="high-contrast-light/2.install-ubuntu.png"></td>
-      <td><img src="dark/2.install-ubuntu.png"></td>
-      <td><img src="high-contrast-dark/2.install-ubuntu.png"></td>
+      <td><img src="light/2.welcome.png"></td>
+      <td><img src="high-contrast-light/2.welcome.png"></td>
+      <td><img src="dark/2.welcome.png"></td>
+      <td><img src="high-contrast-dark/2.welcome.png"></td>
     </tr>
     <tr>
       <td><img src="light/3.keyboard.png"></td>
