@@ -26,18 +26,6 @@
       <td><img src="high-contrast-dark/2.welcome.png"></td>
     </tr>
     <tr>
-      <td><img src="light/3.keyboard.png"></td>
-      <td><img src="high-contrast-light/3.keyboard.png"></td>
-      <td><img src="dark/3.keyboard.png"></td>
-      <td><img src="high-contrast-dark/3.keyboard.png"></td>
-    </tr>
-    <tr>
-      <td><img src="light/3.keyboard-detect.png"></td>
-      <td><img src="high-contrast-light/3.keyboard-detect.png"></td>
-      <td><img src="dark/3.keyboard-detect.png"></td>
-      <td><img src="high-contrast-dark/3.keyboard-detect.png"></td>
-    </tr>
-    <tr>
       <td><img src="light/3.rst.png"></td>
       <td><img src="high-contrast-light/3.rst.png"></td>
       <td><img src="dark/3.rst.png"></td>
@@ -48,6 +36,18 @@
       <td><img src="high-contrast-light/3.rst-confirm.png"></td>
       <td><img src="dark/3.rst-confirm.png"></td>
       <td><img src="high-contrast-dark/3.rst-confirm.png"></td>
+    </tr>
+    <tr>
+      <td><img src="light/3.keyboard.png"></td>
+      <td><img src="high-contrast-light/3.keyboard.png"></td>
+      <td><img src="dark/3.keyboard.png"></td>
+      <td><img src="high-contrast-dark/3.keyboard.png"></td>
+    </tr>
+    <tr>
+      <td><img src="light/3.keyboard-detect.png"></td>
+      <td><img src="high-contrast-light/3.keyboard-detect.png"></td>
+      <td><img src="dark/3.keyboard-detect.png"></td>
+      <td><img src="high-contrast-dark/3.keyboard-detect.png"></td>
     </tr>
     <tr>
       <td><img src="light/4.network.png"></td>
