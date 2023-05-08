@@ -134,10 +134,10 @@
       <td><img src="high-contrast-dark/8.security-key.png"></td>
     </tr>
     <tr>
-      <td><img src="light/9.ready-to-install.png"></td>
-      <td><img src="high-contrast-light/9.ready-to-install.png"></td>
-      <td><img src="dark/9.ready-to-install.png"></td>
-      <td><img src="high-contrast-dark/9.ready-to-install.png"></td>
+      <td><img src="light/9.confirm.png"></td>
+      <td><img src="high-contrast-light/9.confirm.png"></td>
+      <td><img src="dark/9.confirm.png"></td>
+      <td><img src="high-contrast-dark/9.confirm.png"></td>
     </tr>
     <tr>
       <td><img src="light/10.timezone.png"></td>
