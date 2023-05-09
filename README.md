@@ -164,64 +164,64 @@
       <td><img src="high-contrast-dark/13.theme.png"></td>
     </tr>
     <tr>
-      <td><img src="light/14.installation-slide-0.png"></td>
-      <td><img src="high-contrast-light/14.installation-slide-0.png"></td>
-      <td><img src="dark/14.installation-slide-0.png"></td>
-      <td><img src="high-contrast-dark/14.installation-slide-0.png"></td>
+      <td><img src="light/14.install-0.png"></td>
+      <td><img src="high-contrast-light/14.install-0.png"></td>
+      <td><img src="dark/14.install-0.png"></td>
+      <td><img src="high-contrast-dark/14.install-0.png"></td>
     </tr>
     <tr>
-      <td><img src="light/14.installation-slide-1.png"></td>
-      <td><img src="high-contrast-light/14.installation-slide-1.png"></td>
-      <td><img src="dark/14.installation-slide-1.png"></td>
-      <td><img src="high-contrast-dark/14.installation-slide-1.png"></td>
+      <td><img src="light/14.install-1.png"></td>
+      <td><img src="high-contrast-light/14.install-1.png"></td>
+      <td><img src="dark/14.install-1.png"></td>
+      <td><img src="high-contrast-dark/14.install-1.png"></td>
     </tr>
     <tr>
-      <td><img src="light/14.installation-slide-2.png"></td>
-      <td><img src="high-contrast-light/14.installation-slide-2.png"></td>
-      <td><img src="dark/14.installation-slide-2.png"></td>
-      <td><img src="high-contrast-dark/14.installation-slide-2.png"></td>
+      <td><img src="light/14.install-2.png"></td>
+      <td><img src="high-contrast-light/14.install-2.png"></td>
+      <td><img src="dark/14.install-2.png"></td>
+      <td><img src="high-contrast-dark/14.install-2.png"></td>
     </tr>
     <tr>
-      <td><img src="light/14.installation-slide-3.png"></td>
-      <td><img src="high-contrast-light/14.installation-slide-3.png"></td>
-      <td><img src="dark/14.installation-slide-3.png"></td>
-      <td><img src="high-contrast-dark/14.installation-slide-3.png"></td>
+      <td><img src="light/14.install-3.png"></td>
+      <td><img src="high-contrast-light/14.install-3.png"></td>
+      <td><img src="dark/14.install-3.png"></td>
+      <td><img src="high-contrast-dark/14.install-3.png"></td>
     </tr>
     <tr>
-      <td><img src="light/14.installation-slide-4.png"></td>
-      <td><img src="high-contrast-light/14.installation-slide-4.png"></td>
-      <td><img src="dark/14.installation-slide-4.png"></td>
-      <td><img src="high-contrast-dark/14.installation-slide-4.png"></td>
+      <td><img src="light/14.install-4.png"></td>
+      <td><img src="high-contrast-light/14.install-4.png"></td>
+      <td><img src="dark/14.install-4.png"></td>
+      <td><img src="high-contrast-dark/14.install-4.png"></td>
     </tr>
     <tr>
-      <td><img src="light/14.installation-slide-5.png"></td>
-      <td><img src="high-contrast-light/14.installation-slide-5.png"></td>
-      <td><img src="dark/14.installation-slide-5.png"></td>
-      <td><img src="high-contrast-dark/14.installation-slide-5.png"></td>
+      <td><img src="light/14.install-5.png"></td>
+      <td><img src="high-contrast-light/14.install-5.png"></td>
+      <td><img src="dark/14.install-5.png"></td>
+      <td><img src="high-contrast-dark/14.install-5.png"></td>
     </tr>
     <tr>
-      <td><img src="light/14.installation-slide-6.png"></td>
-      <td><img src="high-contrast-light/14.installation-slide-6.png"></td>
-      <td><img src="dark/14.installation-slide-6.png"></td>
-      <td><img src="high-contrast-dark/14.installation-slide-6.png"></td>
+      <td><img src="light/14.install-6.png"></td>
+      <td><img src="high-contrast-light/14.install-6.png"></td>
+      <td><img src="dark/14.install-6.png"></td>
+      <td><img src="high-contrast-dark/14.install-6.png"></td>
     </tr>
     <tr>
-      <td><img src="light/14.installation-slide-7.png"></td>
-      <td><img src="high-contrast-light/14.installation-slide-7.png"></td>
-      <td><img src="dark/14.installation-slide-7.png"></td>
-      <td><img src="high-contrast-dark/14.installation-slide-7.png"></td>
+      <td><img src="light/14.install-7.png"></td>
+      <td><img src="high-contrast-light/14.install-7.png"></td>
+      <td><img src="dark/14.install-7.png"></td>
+      <td><img src="high-contrast-dark/14.install-7.png"></td>
     </tr>
     <tr>
-      <td><img src="light/14.installation-slide-8.png"></td>
-      <td><img src="high-contrast-light/14.installation-slide-8.png"></td>
-      <td><img src="dark/14.installation-slide-8.png"></td>
-      <td><img src="high-contrast-dark/14.installation-slide-8.png"></td>
+      <td><img src="light/14.install-8.png"></td>
+      <td><img src="high-contrast-light/14.install-8.png"></td>
+      <td><img src="dark/14.install-8.png"></td>
+      <td><img src="high-contrast-dark/14.install-8.png"></td>
     </tr>
     <tr>
-      <td><img src="light/15.installation-complete.png"></td>
-      <td><img src="high-contrast-light/15.installation-complete.png"></td>
-      <td><img src="dark/15.installation-complete.png"></td>
-      <td><img src="high-contrast-dark/15.installation-complete.png"></td>
+      <td><img src="light/15.complete.png"></td>
+      <td><img src="high-contrast-light/15.complete.png"></td>
+      <td><img src="dark/15.complete.png"></td>
+      <td><img src="high-contrast-dark/15.complete.png"></td>
     </tr>
   </tbody>
 </table>
