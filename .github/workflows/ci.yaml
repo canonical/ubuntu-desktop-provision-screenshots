@@ -7,6 +7,10 @@ on:
         description: branch to run the workflow on
         required: true
         type: string
+      flutter-version:
+        description: Flutter version to use
+        required: true
+        type: string
 
 jobs:
   screenshots:
@@ -40,7 +44,7 @@ jobs:
       - uses: subosito/flutter-action@v2
         with:
           channel: 'stable'
-          flutter-version: '3.7.x'
+          flutter-version: ${{inputs.flutter-version}}
 
       - name: Prepare environment
         run: |

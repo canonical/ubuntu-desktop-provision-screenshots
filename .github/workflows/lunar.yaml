@@ -8,3 +8,4 @@ jobs:
     uses: canonical/ubuntu-desktop-installer-screenshots/.github/workflows/ci.yaml@ubuntu/lunar
     with:
       branch: ubuntu/lunar
+      flutter-version: '3.7.x'
