@@ -110,22 +110,22 @@
       <td><img src="high-contrast-dark/7.manual-partitioning-sda1.png"></td>
     </tr>
     <tr>
-      <td><img src="light/7.select-disk.png"></td>
-      <td><img src="high-contrast-light/7.select-disk.png"></td>
-      <td><img src="dark/7.select-disk.png"></td>
-      <td><img src="high-contrast-dark/7.select-disk.png"></td>
+      <td><img src="light/7.guided-reformat.png"></td>
+      <td><img src="high-contrast-light/7.guided-reformat.png"></td>
+      <td><img src="dark/7.guided-reformat.png"></td>
+      <td><img src="high-contrast-dark/7.guided-reformat.png"></td>
     </tr>
     <tr>
-      <td><img src="light/7.resize-windows.png"></td>
-      <td><img src="high-contrast-light/7.resize-windows.png"></td>
-      <td><img src="dark/7.resize-windows.png"></td>
-      <td><img src="high-contrast-dark/7.resize-windows.png"></td>
+      <td><img src="light/7.guided-resize.png"></td>
+      <td><img src="high-contrast-light/7.guided-resize.png"></td>
+      <td><img src="dark/7.guided-resize.png"></td>
+      <td><img src="high-contrast-dark/7.guided-resize.png"></td>
     </tr>
     <tr>
-      <td><img src="light/7.resize-windows-ext4.png"></td>
-      <td><img src="high-contrast-light/7.resize-windows-ext4.png"></td>
-      <td><img src="dark/7.resize-windows-ext4.png"></td>
-      <td><img src="high-contrast-dark/7.resize-windows-ext4.png"></td>
+      <td><img src="light/7.guided-resize-ext4.png"></td>
+      <td><img src="high-contrast-light/7.guided-resize-ext4.png"></td>
+      <td><img src="dark/7.guided-resize-ext4.png"></td>
+      <td><img src="high-contrast-dark/7.guided-resize-ext4.png"></td>
     </tr>
     <tr>
       <td><img src="light/8.security-key.png"></td>
