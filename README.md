@@ -56,6 +56,12 @@
       <td><img src="high-contrast-dark/4.network.png"></td>
     </tr>
     <tr>
+      <td><img src="light/5.refresh.png"></td>
+      <td><img src="high-contrast-light/5.refresh.png"></td>
+      <td><img src="dark/5.refresh.png"></td>
+      <td><img src="high-contrast-dark/5.refresh.png"></td>
+    </tr>
+    <tr>
       <td><img src="light/5.updates.png"></td>
       <td><img src="high-contrast-light/5.updates.png"></td>
       <td><img src="dark/5.updates.png"></td>
