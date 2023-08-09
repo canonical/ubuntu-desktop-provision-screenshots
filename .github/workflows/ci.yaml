@@ -74,6 +74,7 @@ jobs:
         working-directory: ${{inputs.repository}}/${{inputs.working-directory}}
         env:
           SUBIQUITY_REPLAY_TIMESCALE: 100
+          SCREENSHOT_THEME: ${{matrix.theme}}
           UDI_SCREENSHOT_THEME: ${{matrix.theme}}
 
       - name: Sync screenshots
