@@ -3,9 +3,22 @@ name: CI
 on:
   workflow_call:
     inputs:
+      repository:
+        description: repository to run the workflow on
+        required: true
+        type: string
       branch:
         description: branch to run the workflow on
         required: true
+        type: string
+      working-directory:
+        description: working directory to run the test in
+        required: true
+        type: string
+      output-directory:
+        description: optional output directory
+        default: '.'
+        required: false
         type: string
       flutter-version:
         description: Flutter version to use
@@ -25,13 +38,13 @@ jobs:
         with:
           ref: ${{inputs.branch}}
 
-      - name: Clone ubuntu-desktop-installer
+      - name: Clone ${{inputs.repository}}
         uses: actions/checkout@v3
         with:
           ref: ${{inputs.branch}}
           submodules: recursive
-          path: ubuntu-desktop-installer
-          repository: canonical/ubuntu-desktop-installer
+          path: ${{inputs.repository}}
+          repository: ${{inputs.repository}}
 
       - name: Install dependencies
         run: |
@@ -39,7 +52,7 @@ jobs:
           sudo apt install -y clang cmake curl libgtk-3-dev ninja-build pkg-config unzip xvfb
           sudo apt install -y dbus-x11 fonts-ubuntu network-manager upower
           make install_deps
-        working-directory: ubuntu-desktop-installer
+        working-directory: ${{inputs.repository}}
 
       - uses: subosito/flutter-action@v2
         with:
@@ -58,14 +71,14 @@ jobs:
         run: |
           xvfb-run -a -s '-screen 0 1024x768x24 +extension GLX' \
             flutter test --update-goldens integration_test/screenshot_test.dart
-        working-directory: ubuntu-desktop-installer/packages/ubuntu_desktop_installer
+        working-directory: ${{inputs.repository}}/${{inputs.working-directory}}
         env:
           SUBIQUITY_REPLAY_TIMESCALE: 100
           UDI_SCREENSHOT_THEME: ${{matrix.theme}}
 
       - name: Sync screenshots
         run: |
-          rsync -avu --delete ubuntu-desktop-installer/packages/ubuntu_desktop_installer/integration_test/screenshots/${{matrix.theme}} .
+          rsync -avu --delete ${{inputs.repository}}/${{inputs.working-directory}}/integration_test/screenshots/${{matrix.theme}} ${{inputs.output-directory}}
 
       - uses: peter-evans/create-pull-request@v5
         id: pr
@@ -73,7 +86,7 @@ jobs:
           title: 'Update ${{matrix.theme}} screenshots on `${{inputs.branch}}`'
           commit-message: 'Update ${{matrix.theme}} screenshots on `${{inputs.branch}}`'
           author: GitHub <noreply@github.com>
-          add-paths: ${{matrix.theme}}
+          add-paths: ${{inputs.output-directory}}/${{matrix.theme}}
           branch: pr/${{inputs.branch}}/${{matrix.theme}}
           delete-branch: true
 

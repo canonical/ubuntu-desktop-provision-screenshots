@@ -7,5 +7,7 @@ jobs:
   screenshots:
     uses: ./.github/workflows/ci.yaml
     with:
+      repository: canonical/ubuntu-desktop-installer
       branch: ubuntu/lunar
+      working-directory: packages/ubuntu_desktop_installer
       flutter-version: '3.7.x'
