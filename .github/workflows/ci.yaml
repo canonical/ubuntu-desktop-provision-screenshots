@@ -83,11 +83,11 @@ jobs:
       - uses: peter-evans/create-pull-request@v5
         id: pr
         with:
-          title: 'Update ${{matrix.theme}} screenshots on `${{inputs.branch}}`'
-          commit-message: 'Update ${{matrix.theme}} screenshots on `${{inputs.branch}}`'
+          title: 'Update ${{inputs.output-directory}}/${{matrix.theme}} screenshots on `${{inputs.branch}}`'
+          commit-message: 'Update ${{inputs.output-directory}}/${{matrix.theme}} screenshots on `${{inputs.branch}}`'
           author: GitHub <noreply@github.com>
           add-paths: ${{inputs.output-directory}}/${{matrix.theme}}
-          branch: pr/${{inputs.branch}}/${{matrix.theme}}
+          branch: pr/${{inputs.branch}}/${{inputs.output-directory}}/${{matrix.theme}}
           delete-branch: true
 
       - run: gh pr merge --squash ${{steps.pr.outputs.pull-request-number}}
