@@ -16,136 +16,136 @@
   </thead>
   <tbody>
     <tr>
-      <td><img src="bootstrap/light/1.locale.png"></td>
-      <td><img src="bootstrap/high-contrast-light/1.locale.png"></td>
-      <td><img src="bootstrap/dark/1.locale.png"></td>
-      <td><img src="bootstrap/high-contrast-dark/1.locale.png"></td>
+      <td><img src="bootstrap/light/01.locale.png"></td>
+      <td><img src="bootstrap/high-contrast-light/01.locale.png"></td>
+      <td><img src="bootstrap/dark/01.locale.png"></td>
+      <td><img src="bootstrap/high-contrast-dark/01.locale.png"></td>
     </tr>
     <tr>
-      <td><img src="bootstrap/light/2.welcome.png"></td>
-      <td><img src="bootstrap/high-contrast-light/2.welcome.png"></td>
-      <td><img src="bootstrap/dark/2.welcome.png"></td>
-      <td><img src="bootstrap/high-contrast-dark/2.welcome.png"></td>
+      <td><img src="bootstrap/light/02.welcome.png"></td>
+      <td><img src="bootstrap/high-contrast-light/02.welcome.png"></td>
+      <td><img src="bootstrap/dark/02.welcome.png"></td>
+      <td><img src="bootstrap/high-contrast-dark/02.welcome.png"></td>
     </tr>
     <tr>
-      <td><img src="bootstrap/light/3.rst.png"></td>
-      <td><img src="bootstrap/high-contrast-light/3.rst.png"></td>
-      <td><img src="bootstrap/dark/3.rst.png"></td>
-      <td><img src="bootstrap/high-contrast-dark/3.rst.png"></td>
+      <td><img src="bootstrap/light/03.rst.png"></td>
+      <td><img src="bootstrap/high-contrast-light/03.rst.png"></td>
+      <td><img src="bootstrap/dark/03.rst.png"></td>
+      <td><img src="bootstrap/high-contrast-dark/03.rst.png"></td>
     </tr>
     <tr>
-      <td><img src="bootstrap/light/3.rst-confirm.png"></td>
-      <td><img src="bootstrap/high-contrast-light/3.rst-confirm.png"></td>
-      <td><img src="bootstrap/dark/3.rst-confirm.png"></td>
-      <td><img src="bootstrap/high-contrast-dark/3.rst-confirm.png"></td>
+      <td><img src="bootstrap/light/03.rst-confirm.png"></td>
+      <td><img src="bootstrap/high-contrast-light/03.rst-confirm.png"></td>
+      <td><img src="bootstrap/dark/03.rst-confirm.png"></td>
+      <td><img src="bootstrap/high-contrast-dark/03.rst-confirm.png"></td>
     </tr>
     <tr>
-      <td><img src="bootstrap/light/3.keyboard.png"></td>
-      <td><img src="bootstrap/high-contrast-light/3.keyboard.png"></td>
-      <td><img src="bootstrap/dark/3.keyboard.png"></td>
-      <td><img src="bootstrap/high-contrast-dark/3.keyboard.png"></td>
+      <td><img src="bootstrap/light/03.keyboard.png"></td>
+      <td><img src="bootstrap/high-contrast-light/03.keyboard.png"></td>
+      <td><img src="bootstrap/dark/03.keyboard.png"></td>
+      <td><img src="bootstrap/high-contrast-dark/03.keyboard.png"></td>
     </tr>
     <tr>
-      <td><img src="bootstrap/light/3.keyboard-detect.png"></td>
-      <td><img src="bootstrap/high-contrast-light/3.keyboard-detect.png"></td>
-      <td><img src="bootstrap/dark/3.keyboard-detect.png"></td>
-      <td><img src="bootstrap/high-contrast-dark/3.keyboard-detect.png"></td>
+      <td><img src="bootstrap/light/03.keyboard-detect.png"></td>
+      <td><img src="bootstrap/high-contrast-light/03.keyboard-detect.png"></td>
+      <td><img src="bootstrap/dark/03.keyboard-detect.png"></td>
+      <td><img src="bootstrap/high-contrast-dark/03.keyboard-detect.png"></td>
     </tr>
     <tr>
-      <td><img src="bootstrap/light/4.network.png"></td>
-      <td><img src="bootstrap/high-contrast-light/4.network.png"></td>
-      <td><img src="bootstrap/dark/4.network.png"></td>
-      <td><img src="bootstrap/high-contrast-dark/4.network.png"></td>
+      <td><img src="bootstrap/light/04.network.png"></td>
+      <td><img src="bootstrap/high-contrast-light/04.network.png"></td>
+      <td><img src="bootstrap/dark/04.network.png"></td>
+      <td><img src="bootstrap/high-contrast-dark/04.network.png"></td>
     </tr>
     <tr>
-      <td><img src="bootstrap/light/5.refresh.png"></td>
-      <td><img src="bootstrap/high-contrast-light/5.refresh.png"></td>
-      <td><img src="bootstrap/dark/5.refresh.png"></td>
-      <td><img src="bootstrap/high-contrast-dark/5.refresh.png"></td>
+      <td><img src="bootstrap/light/05.refresh.png"></td>
+      <td><img src="bootstrap/high-contrast-light/05.refresh.png"></td>
+      <td><img src="bootstrap/dark/05.refresh.png"></td>
+      <td><img src="bootstrap/high-contrast-dark/05.refresh.png"></td>
     </tr>
     <tr>
-      <td><img src="bootstrap/light/5.source.png"></td>
-      <td><img src="bootstrap/high-contrast-light/5.source.png"></td>
-      <td><img src="bootstrap/dark/5.source.png"></td>
-      <td><img src="bootstrap/high-contrast-dark/5.source.png"></td>
+      <td><img src="bootstrap/light/05.source.png"></td>
+      <td><img src="bootstrap/high-contrast-light/05.source.png"></td>
+      <td><img src="bootstrap/dark/05.source.png"></td>
+      <td><img src="bootstrap/high-contrast-dark/05.source.png"></td>
     </tr>
     <tr>
-      <td><img src="bootstrap/light/6.not-enough-space.png"></td>
-      <td><img src="bootstrap/high-contrast-light/6.not-enough-space.png"></td>
-      <td><img src="bootstrap/dark/6.not-enough-space.png"></td>
-      <td><img src="bootstrap/high-contrast-dark/6.not-enough-space.png"></td>
+      <td><img src="bootstrap/light/06.not-enough-space.png"></td>
+      <td><img src="bootstrap/high-contrast-light/06.not-enough-space.png"></td>
+      <td><img src="bootstrap/dark/06.not-enough-space.png"></td>
+      <td><img src="bootstrap/high-contrast-dark/06.not-enough-space.png"></td>
     </tr>
     <tr>
-      <td><img src="bootstrap/light/6.storage.png"></td>
-      <td><img src="bootstrap/high-contrast-light/6.storage.png"></td>
-      <td><img src="bootstrap/dark/6.storage.png"></td>
-      <td><img src="bootstrap/high-contrast-dark/6.storage.png"></td>
+      <td><img src="bootstrap/light/06.storage.png"></td>
+      <td><img src="bootstrap/high-contrast-light/06.storage.png"></td>
+      <td><img src="bootstrap/dark/06.storage.png"></td>
+      <td><img src="bootstrap/high-contrast-dark/06.storage.png"></td>
     </tr>
     <tr>
-      <td><img src="bootstrap/light/6.storage-advanced-features.png"></td>
-      <td><img src="bootstrap/high-contrast-light/6.storage-advanced-features.png"></td>
-      <td><img src="bootstrap/dark/6.storage-advanced-features.png"></td>
-      <td><img src="bootstrap/high-contrast-dark/6.storage-advanced-features.png"></td>
+      <td><img src="bootstrap/light/06.storage-advanced-features.png"></td>
+      <td><img src="bootstrap/high-contrast-light/06.storage-advanced-features.png"></td>
+      <td><img src="bootstrap/dark/06.storage-advanced-features.png"></td>
+      <td><img src="bootstrap/high-contrast-dark/06.storage-advanced-features.png"></td>
     </tr>
     <tr>
-      <td><img src="bootstrap/light/6.storage-alongside-windows.png"></td>
-      <td><img src="bootstrap/high-contrast-light/6.storage-alongside-windows.png"></td>
-      <td><img src="bootstrap/dark/6.storage-alongside-windows.png"></td>
-      <td><img src="bootstrap/high-contrast-dark/6.storage-alongside-windows.png"></td>
+      <td><img src="bootstrap/light/06.storage-alongside-windows.png"></td>
+      <td><img src="bootstrap/high-contrast-light/06.storage-alongside-windows.png"></td>
+      <td><img src="bootstrap/dark/06.storage-alongside-windows.png"></td>
+      <td><img src="bootstrap/high-contrast-dark/06.storage-alongside-windows.png"></td>
     </tr>
     <tr>
-      <td><img src="bootstrap/light/7.bitlocker.png"></td>
-      <td><img src="bootstrap/high-contrast-light/7.bitlocker.png"></td>
-      <td><img src="bootstrap/dark/7.bitlocker.png"></td>
-      <td><img src="bootstrap/high-contrast-dark/7.bitlocker.png"></td>
+      <td><img src="bootstrap/light/07.bitlocker.png"></td>
+      <td><img src="bootstrap/high-contrast-light/07.bitlocker.png"></td>
+      <td><img src="bootstrap/dark/07.bitlocker.png"></td>
+      <td><img src="bootstrap/high-contrast-dark/07.bitlocker.png"></td>
     </tr>
     <tr>
-      <td><img src="bootstrap/light/7.bitlocker-confirm.png"></td>
-      <td><img src="bootstrap/high-contrast-light/7.bitlocker-confirm.png"></td>
-      <td><img src="bootstrap/dark/7.bitlocker-confirm.png"></td>
-      <td><img src="bootstrap/high-contrast-dark/7.bitlocker-confirm.png"></td>
+      <td><img src="bootstrap/light/07.bitlocker-confirm.png"></td>
+      <td><img src="bootstrap/high-contrast-light/07.bitlocker-confirm.png"></td>
+      <td><img src="bootstrap/dark/07.bitlocker-confirm.png"></td>
+      <td><img src="bootstrap/high-contrast-dark/07.bitlocker-confirm.png"></td>
     </tr>
     <tr>
-      <td><img src="bootstrap/light/7.storage-manual.png"></td>
-      <td><img src="bootstrap/high-contrast-light/7.storage-manual.png"></td>
-      <td><img src="bootstrap/dark/7.storage-manual.png"></td>
-      <td><img src="bootstrap/high-contrast-dark/7.storage-manual.png"></td>
+      <td><img src="bootstrap/light/07.storage-manual.png"></td>
+      <td><img src="bootstrap/high-contrast-light/07.storage-manual.png"></td>
+      <td><img src="bootstrap/dark/07.storage-manual.png"></td>
+      <td><img src="bootstrap/high-contrast-dark/07.storage-manual.png"></td>
     </tr>
     <tr>
-      <td><img src="bootstrap/light/7.storage-manual-sda1.png"></td>
-      <td><img src="bootstrap/high-contrast-light/7.storage-manual-sda1.png"></td>
-      <td><img src="bootstrap/dark/7.storage-manual-sda1.png"></td>
-      <td><img src="bootstrap/high-contrast-dark/7.storage-manual-sda1.png"></td>
+      <td><img src="bootstrap/light/07.storage-manual-sda1.png"></td>
+      <td><img src="bootstrap/high-contrast-light/07.storage-manual-sda1.png"></td>
+      <td><img src="bootstrap/dark/07.storage-manual-sda1.png"></td>
+      <td><img src="bootstrap/high-contrast-dark/07.storage-manual-sda1.png"></td>
     </tr>
     <tr>
-      <td><img src="bootstrap/light/7.storage-guided-reformat.png"></td>
-      <td><img src="bootstrap/high-contrast-light/7.storage-guided-reformat.png"></td>
-      <td><img src="bootstrap/dark/7.storage-guided-reformat.png"></td>
-      <td><img src="bootstrap/high-contrast-dark/7.storage-guided-reformat.png"></td>
+      <td><img src="bootstrap/light/07.storage-guided-reformat.png"></td>
+      <td><img src="bootstrap/high-contrast-light/07.storage-guided-reformat.png"></td>
+      <td><img src="bootstrap/dark/07.storage-guided-reformat.png"></td>
+      <td><img src="bootstrap/high-contrast-dark/07.storage-guided-reformat.png"></td>
     </tr>
     <tr>
-      <td><img src="bootstrap/light/7.storage-guided-resize.png"></td>
-      <td><img src="bootstrap/high-contrast-light/7.storage-guided-resize.png"></td>
-      <td><img src="bootstrap/dark/7.storage-guided-resize.png"></td>
-      <td><img src="bootstrap/high-contrast-dark/7.storage-guided-resize.png"></td>
+      <td><img src="bootstrap/light/07.storage-guided-resize.png"></td>
+      <td><img src="bootstrap/high-contrast-light/07.storage-guided-resize.png"></td>
+      <td><img src="bootstrap/dark/07.storage-guided-resize.png"></td>
+      <td><img src="bootstrap/high-contrast-dark/07.storage-guided-resize.png"></td>
     </tr>
     <tr>
-      <td><img src="bootstrap/light/7.storage-guided-resize-ext4.png"></td>
-      <td><img src="bootstrap/high-contrast-light/7.storage-guided-resize-ext4.png"></td>
-      <td><img src="bootstrap/dark/7.storage-guided-resize-ext4.png"></td>
-      <td><img src="bootstrap/high-contrast-dark/7.storage-guided-resize-ext4.png"></td>
+      <td><img src="bootstrap/light/07.storage-guided-resize-ext4.png"></td>
+      <td><img src="bootstrap/high-contrast-light/07.storage-guided-resize-ext4.png"></td>
+      <td><img src="bootstrap/dark/07.storage-guided-resize-ext4.png"></td>
+      <td><img src="bootstrap/high-contrast-dark/07.storage-guided-resize-ext4.png"></td>
     </tr>
     <tr>
-      <td><img src="bootstrap/light/8.security-key.png"></td>
-      <td><img src="bootstrap/high-contrast-light/8.security-key.png"></td>
-      <td><img src="bootstrap/dark/8.security-key.png"></td>
-      <td><img src="bootstrap/high-contrast-dark/8.security-key.png"></td>
+      <td><img src="bootstrap/light/08.security-key.png"></td>
+      <td><img src="bootstrap/high-contrast-light/08.security-key.png"></td>
+      <td><img src="bootstrap/dark/08.security-key.png"></td>
+      <td><img src="bootstrap/high-contrast-dark/08.security-key.png"></td>
     </tr>
     <tr>
-      <td><img src="bootstrap/light/9.confirm.png"></td>
-      <td><img src="bootstrap/high-contrast-light/9.confirm.png"></td>
-      <td><img src="bootstrap/dark/9.confirm.png"></td>
-      <td><img src="bootstrap/high-contrast-dark/9.confirm.png"></td>
+      <td><img src="bootstrap/light/09.confirm.png"></td>
+      <td><img src="bootstrap/high-contrast-light/09.confirm.png"></td>
+      <td><img src="bootstrap/dark/09.confirm.png"></td>
+      <td><img src="bootstrap/high-contrast-dark/09.confirm.png"></td>
     </tr>
     <tr>
       <td><img src="bootstrap/light/10.timezone.png"></td>
@@ -247,58 +247,58 @@
   </thead>
   <tbody>
     <tr>
-      <td><img src="init/light/1.locale.png"></td>
-      <td><img src="init/high-contrast-light/1.locale.png"></td>
-      <td><img src="init/dark/1.locale.png"></td>
-      <td><img src="init/high-contrast-dark/1.locale.png"></td>
+      <td><img src="init/light/01.locale.png"></td>
+      <td><img src="init/high-contrast-light/01.locale.png"></td>
+      <td><img src="init/dark/01.locale.png"></td>
+      <td><img src="init/high-contrast-dark/01.locale.png"></td>
     </tr>
     <tr>
-      <td><img src="init/light/2.keyboard.png"></td>
-      <td><img src="init/high-contrast-light/2.keyboard.png"></td>
-      <td><img src="init/dark/2.keyboard.png"></td>
-      <td><img src="init/high-contrast-dark/2.keyboard.png"></td>
+      <td><img src="init/light/02.keyboard.png"></td>
+      <td><img src="init/high-contrast-light/02.keyboard.png"></td>
+      <td><img src="init/dark/02.keyboard.png"></td>
+      <td><img src="init/high-contrast-dark/02.keyboard.png"></td>
     </tr>
     <tr>
-      <td><img src="init/light/3.network.png"></td>
-      <td><img src="init/high-contrast-light/3.network.png"></td>
-      <td><img src="init/dark/3.network.png"></td>
-      <td><img src="init/high-contrast-dark/3.network.png"></td>
+      <td><img src="init/light/03.network.png"></td>
+      <td><img src="init/high-contrast-light/03.network.png"></td>
+      <td><img src="init/dark/03.network.png"></td>
+      <td><img src="init/high-contrast-dark/03.network.png"></td>
     </tr>
     <tr>
-      <td><img src="init/light/4.timezone.png"></td>
-      <td><img src="init/high-contrast-light/4.timezone.png"></td>
-      <td><img src="init/dark/4.timezone.png"></td>
-      <td><img src="init/high-contrast-dark/4.timezone.png"></td>
+      <td><img src="init/light/04.timezone.png"></td>
+      <td><img src="init/high-contrast-light/04.timezone.png"></td>
+      <td><img src="init/dark/04.timezone.png"></td>
+      <td><img src="init/high-contrast-dark/04.timezone.png"></td>
     </tr>
     <tr>
-      <td><img src="init/light/5.identity.png"></td>
-      <td><img src="init/high-contrast-light/5.identity.png"></td>
-      <td><img src="init/dark/5.identity.png"></td>
-      <td><img src="init/high-contrast-dark/5.identity.png"></td>
+      <td><img src="init/light/05.identity.png"></td>
+      <td><img src="init/high-contrast-light/05.identity.png"></td>
+      <td><img src="init/dark/05.identity.png"></td>
+      <td><img src="init/high-contrast-dark/05.identity.png"></td>
     </tr>
     <tr>
-      <td><img src="init/light/6.theme.png"></td>
-      <td><img src="init/high-contrast-light/6.theme.png"></td>
-      <td><img src="init/dark/6.theme.png"></td>
-      <td><img src="init/high-contrast-dark/6.theme.png"></td>
+      <td><img src="init/light/06.theme.png"></td>
+      <td><img src="init/high-contrast-light/06.theme.png"></td>
+      <td><img src="init/dark/06.theme.png"></td>
+      <td><img src="init/high-contrast-dark/06.theme.png"></td>
     </tr>
     <tr>
-      <td><img src="init/light/7.welcome.png"></td>
-      <td><img src="init/high-contrast-light/7.welcome.png"></td>
-      <td><img src="init/dark/7.welcome.png"></td>
-      <td><img src="init/high-contrast-dark/7.welcome.png"></td>
+      <td><img src="init/light/07.welcome.png"></td>
+      <td><img src="init/high-contrast-light/07.welcome.png"></td>
+      <td><img src="init/dark/07.welcome.png"></td>
+      <td><img src="init/high-contrast-dark/07.welcome.png"></td>
     </tr>
     <tr>
-      <td><img src="init/light/8.telemetry.png"></td>
-      <td><img src="init/high-contrast-light/8.telemetry.png"></td>
-      <td><img src="init/dark/8.telemetry.png"></td>
-      <td><img src="init/high-contrast-dark/8.telemetry.png"></td>
+      <td><img src="init/light/08.telemetry.png"></td>
+      <td><img src="init/high-contrast-light/08.telemetry.png"></td>
+      <td><img src="init/dark/08.telemetry.png"></td>
+      <td><img src="init/high-contrast-dark/08.telemetry.png"></td>
     </tr>
     <tr>
-      <td><img src="init/light/9.privacy.png"></td>
-      <td><img src="init/high-contrast-light/9.privacy.png"></td>
-      <td><img src="init/dark/9.privacy.png"></td>
-      <td><img src="init/high-contrast-dark/9.privacy.png"></td>
+      <td><img src="init/light/09.privacy.png"></td>
+      <td><img src="init/high-contrast-light/09.privacy.png"></td>
+      <td><img src="init/dark/09.privacy.png"></td>
+      <td><img src="init/high-contrast-dark/09.privacy.png"></td>
     </tr>
     <tr>
       <td><img src="init/light/10.store.png"></td>
