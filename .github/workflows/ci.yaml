@@ -34,12 +34,12 @@ jobs:
       fail-fast: false
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           ref: ${{inputs.branch}}
 
       - name: Clone ${{inputs.repository}}
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           ref: ${{inputs.branch}}
           submodules: recursive
