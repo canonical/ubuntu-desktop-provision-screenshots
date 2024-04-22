@@ -20,10 +20,6 @@ on:
         default: '.'
         required: false
         type: string
-      flutter-version:
-        description: Flutter version to use
-        required: true
-        type: string
 
 jobs:
   screenshots:
@@ -46,6 +42,9 @@ jobs:
           path: ${{inputs.repository}}
           repository: ${{inputs.repository}}
 
+      - uses: asdf-vm/actions/install@v3
+      - uses: bluefireteam/melos-action@v2
+
       - name: Install dependencies
         run: |
           sudo apt update
@@ -53,11 +52,6 @@ jobs:
           sudo apt install -y dbus-x11 fonts-ubuntu network-manager upower
           make install_deps
         working-directory: ${{inputs.repository}}
-
-      - uses: subosito/flutter-action@v2
-        with:
-          channel: 'stable'
-          flutter-version: ${{inputs.flutter-version}}
 
       - name: Prepare environment
         run: |
