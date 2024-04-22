@@ -1,7 +1,6 @@
 # Ubuntu Desktop Provision screenshots
 
 [![main](https://github.com/canonical/ubuntu-desktop-provision-screenshots/actions/workflows/main.yaml/badge.svg)](https://github.com/canonical/ubuntu-desktop-provision-screenshots/actions/workflows/main.yaml)
-[![lunar](https://github.com/canonical/ubuntu-desktop-provision-screenshots/actions/workflows/lunar.yaml/badge.svg?branch=ubuntu%2Flunar)](https://github.com/canonical/ubuntu-desktop-provision-screenshots/actions/workflows/lunar.yaml)
 
 ## Bootstrap
 
