@@ -30,16 +30,18 @@ jobs:
       fail-fast: false
 
     steps:
-      - uses: actions/checkout@v3
-        with:
-          ref: ${{inputs.branch}}
-
-      - name: Clone ${{inputs.repository}}
+      - name: Checkout ${{inputs.repository}}
         uses: actions/checkout@v3
         with:
           ref: ${{inputs.branch}}
           submodules: recursive
           repository: ${{inputs.repository}}
+
+      - name: Clone screenshot repo
+        uses: actions/checkout@v3
+        with:
+          ref: ${{inputs.branch}}
+          path: 'screenshot-repo'
 
       - uses: asdf-vm/actions/install@v3
       - uses: bluefireteam/melos-action@v2
@@ -71,7 +73,7 @@ jobs:
 
       - name: Sync screenshots
         run: |
-          rsync -avu --delete ${{inputs.working-directory}}/integration_test/screenshots/${{matrix.theme}} ${{inputs.output-directory}}
+          rsync -avu --delete ${{inputs.working-directory}}/integration_test/screenshots/${{matrix.theme}} 'screenshot-repo/${{inputs.output-directory}}'
 
       - uses: peter-evans/create-pull-request@v5
         id: pr
@@ -82,8 +84,10 @@ jobs:
           add-paths: ${{inputs.output-directory}}/${{matrix.theme}}
           branch: pr/${{inputs.branch}}/${{inputs.output-directory}}/${{matrix.theme}}
           delete-branch: true
+          path: 'screenshot-repo'
 
       - run: gh pr merge --squash ${{steps.pr.outputs.pull-request-number}}
+        working-directory: 'screenshot-repo'
         if: (steps.pr.outputs.pull-request-operation == 'created') || (steps.pr.outputs.pull-request-operation == 'updated')
         env:
           PR_URL: ${{github.event.pull_request.html_url}}
