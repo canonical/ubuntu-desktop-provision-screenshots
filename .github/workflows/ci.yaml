@@ -44,7 +44,7 @@ jobs:
           path: 'screenshot-repo'
 
       - uses: asdf-vm/actions/install@v3
-      - uses: bluefireteam/melos-action@v2
+      - uses: bluefireteam/melos-action@v3
 
       - name: Install dependencies
         run: |
