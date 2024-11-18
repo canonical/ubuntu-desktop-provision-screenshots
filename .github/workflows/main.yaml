@@ -11,7 +11,7 @@ jobs:
     with:
       repository: canonical/ubuntu-desktop-provision
       branch: main
-      working-directory: packages/ubuntu_bootstrap
+      working-directory: apps/ubuntu_bootstrap
       output-directory: bootstrap
 
   init:
@@ -19,5 +19,5 @@ jobs:
     with:
       repository: canonical/ubuntu-desktop-provision
       branch: main
-      working-directory: packages/ubuntu_init
+      working-directory: apps/ubuntu_init
       output-directory: init
