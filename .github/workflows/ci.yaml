@@ -31,14 +31,14 @@ jobs:
 
     steps:
       - name: Checkout ${{inputs.repository}}
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           ref: ${{inputs.branch}}
           submodules: recursive
           repository: ${{inputs.repository}}
 
       - name: Clone screenshot repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           ref: ${{inputs.branch}}
           path: 'screenshot-repo'
