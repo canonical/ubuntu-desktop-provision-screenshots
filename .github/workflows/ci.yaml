@@ -75,7 +75,7 @@ jobs:
         run: |
           rsync -avu --delete ${{inputs.working-directory}}/integration_test/screenshots/${{matrix.theme}} 'screenshot-repo/${{inputs.output-directory}}'
 
-      - uses: peter-evans/create-pull-request@v6
+      - uses: peter-evans/create-pull-request@v7
         id: pr
         with:
           title: 'Update ${{inputs.output-directory}}/${{matrix.theme}} screenshots on `${{inputs.branch}}`'
