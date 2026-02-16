@@ -43,7 +43,7 @@ jobs:
           ref: ${{inputs.branch}}
           path: 'screenshot-repo'
 
-      - uses: asdf-vm/actions/install@v3
+      - uses: asdf-vm/actions/install@v4
       - uses: bluefireteam/melos-action@v3
 
       - name: Install dependencies
